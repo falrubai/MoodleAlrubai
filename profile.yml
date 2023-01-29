@@ -1,0 +1,9 @@
+name: this for test
+
+on:
+  push:
+    branches-ignore:
+      - master
+jobs:
+  Grunt:
+    runs-on: ubuntu-20.04
